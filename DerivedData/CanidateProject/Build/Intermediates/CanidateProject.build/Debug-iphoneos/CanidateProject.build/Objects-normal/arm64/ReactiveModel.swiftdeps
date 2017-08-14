@@ -1,0 +1,175 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReactiveModel"
+- "User"
+- "Post"
+- "Picture"
+provides-nominal:
+- "V15CanidateProject13ReactiveModel"
+- "V15CanidateProject4User"
+- "V15CanidateProject4Post"
+- "V15CanidateProject7Picture"
+provides-member:
+- ["V15CanidateProject13ReactiveModel", ""]
+- ["V15CanidateProject4User", ""]
+- ["V15CanidateProject4Post", ""]
+- ["V15CanidateProject7Picture", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Int"
+- "Picture"
+- "Post"
+- "ReactiveModel"
+- "ServiceHost"
+- "Singleton"
+- "String"
+- !private "StringLiteralType"
+- "User"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["P12ReactiveJSON8Identity", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["V15CanidateProject7Picture", "Int"]
+- ["V15CanidateProject7Picture", "String"]
+- ["V15CanidateProject7Picture", "albumID"]
+- ["V15CanidateProject7Picture", "id"]
+- ["V15CanidateProject7Picture", "init"]
+- ["V15CanidateProject7Picture", "thumbnailUrl"]
+- ["V15CanidateProject7Picture", "title"]
+- ["V15CanidateProject7Picture", "url"]
+- ["V15CanidateProject4Post", "Int"]
+- ["V15CanidateProject4Post", "String"]
+- ["V15CanidateProject4Post", "body"]
+- ["V15CanidateProject4Post", "id"]
+- ["V15CanidateProject4Post", "init"]
+- ["V15CanidateProject4Post", "title"]
+- ["V15CanidateProject13ReactiveModel", "Instance"]
+- ["V15CanidateProject13ReactiveModel", "ReactiveModel"]
+- ["V15CanidateProject13ReactiveModel", "String"]
+- ["V15CanidateProject13ReactiveModel", "deinit"]
+- ["V15CanidateProject13ReactiveModel", "host"]
+- ["V15CanidateProject13ReactiveModel", "init"]
+- ["V15CanidateProject13ReactiveModel", "path"]
+- ["V15CanidateProject13ReactiveModel", "scheme"]
+- ["V15CanidateProject13ReactiveModel", "shared"]
+- ["P12ReactiveJSON11ServiceHost", "Instance"]
+- ["P12ReactiveJSON11ServiceHost", "host"]
+- ["P12ReactiveJSON11ServiceHost", "init"]
+- ["P12ReactiveJSON11ServiceHost", "path"]
+- ["P12ReactiveJSON11ServiceHost", "scheme"]
+- ["P12ReactiveJSON11ServiceHost", "shared"]
+- ["P12ReactiveJSON11ServiceHost", ""]
+- ["P12ReactiveJSON9Singleton", "Instance"]
+- ["P12ReactiveJSON9Singleton", "host"]
+- ["P12ReactiveJSON9Singleton", "init"]
+- ["P12ReactiveJSON9Singleton", "path"]
+- ["P12ReactiveJSON9Singleton", "scheme"]
+- ["P12ReactiveJSON9Singleton", "shared"]
+- ["P12ReactiveJSON9Singleton", ""]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["V15CanidateProject4User", "Int"]
+- ["V15CanidateProject4User", "String"]
+- ["V15CanidateProject4User", "email"]
+- ["V15CanidateProject4User", "id"]
+- ["V15CanidateProject4User", "init"]
+- ["V15CanidateProject4User", "name"]
+- ["V15CanidateProject4User", "username"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "P12ReactiveJSON8Identity"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "V15CanidateProject7Picture"
+- "V15CanidateProject4Post"
+- "V15CanidateProject13ReactiveModel"
+- "P12ReactiveJSON11ServiceHost"
+- "P12ReactiveJSON9Singleton"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "V15CanidateProject4User"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Modules/ReactiveJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Modules/Result.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Headers/ReactiveJSON.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Headers/ReactiveJSON-Swift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Headers/Result-Swift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Headers/ReactiveSwift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Headers/Result.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Modules/module.modulemap"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Modules/module.modulemap"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Modules/module.modulemap"
+interface-hash: "b69cb2371c80d3b3962b94231f841dde"

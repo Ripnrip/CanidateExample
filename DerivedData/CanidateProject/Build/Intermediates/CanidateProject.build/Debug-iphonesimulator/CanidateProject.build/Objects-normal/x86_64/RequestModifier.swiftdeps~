@@ -1,0 +1,73 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageDownloadRequestModifier"
+- "NoModifier"
+- "AnyModifier"
+provides-nominal:
+- "P15CanidateProject28ImageDownloadRequestModifier"
+- "V15CanidateProject10NoModifier"
+- "V15CanidateProject11AnyModifier"
+provides-member:
+- ["P15CanidateProject28ImageDownloadRequestModifier", ""]
+- ["V15CanidateProject10NoModifier", ""]
+- ["V15CanidateProject11AnyModifier", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyModifier"
+- "AssignmentPrecedence"
+- "ImageDownloadRequestModifier"
+- "NoModifier"
+- "URLRequest"
+depends-member:
+- ["V15CanidateProject11AnyModifier", "URLRequest"]
+- ["V15CanidateProject11AnyModifier", "block"]
+- ["V15CanidateProject11AnyModifier", "deinit"]
+- ["V15CanidateProject11AnyModifier", "init"]
+- ["V15CanidateProject11AnyModifier", "modified"]
+- ["P15CanidateProject28ImageDownloadRequestModifier", "NoModifier"]
+- ["P15CanidateProject28ImageDownloadRequestModifier", "URLRequest"]
+- !private ["P15CanidateProject28ImageDownloadRequestModifier", "block"]
+- ["P15CanidateProject28ImageDownloadRequestModifier", "init"]
+- ["P15CanidateProject28ImageDownloadRequestModifier", "modified"]
+- ["P15CanidateProject28ImageDownloadRequestModifier", ""]
+- ["V15CanidateProject10NoModifier", "NoModifier"]
+- ["V15CanidateProject10NoModifier", "URLRequest"]
+- ["V15CanidateProject10NoModifier", "default"]
+- ["V15CanidateProject10NoModifier", "deinit"]
+- ["V15CanidateProject10NoModifier", "init"]
+- ["V15CanidateProject10NoModifier", "modified"]
+depends-nominal:
+- "V15CanidateProject11AnyModifier"
+- "P15CanidateProject28ImageDownloadRequestModifier"
+- "V15CanidateProject10NoModifier"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Modules/ReactiveJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Headers/ReactiveJSON.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Headers/ReactiveJSON-Swift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Headers/Result-Swift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Headers/ReactiveSwift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Headers/Result.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Modules/module.modulemap"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Modules/module.modulemap"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Modules/module.modulemap"
+interface-hash: "6459fe56fbf1e7e03fed8c582a6ed952"

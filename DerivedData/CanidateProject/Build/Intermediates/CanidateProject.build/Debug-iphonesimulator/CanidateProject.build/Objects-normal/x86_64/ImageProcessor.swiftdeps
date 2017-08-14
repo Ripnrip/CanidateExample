@@ -1,0 +1,816 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ImageProcessItem"
+- "ImageProcessor"
+- "ProcessorImp"
+- "=="
+- "!="
+- "DefaultImageProcessor"
+- "RectCorner"
+- "RoundCornerImageProcessor"
+- "ContentMode"
+- "ResizingImageProcessor"
+- "BlurImageProcessor"
+- "OverlayImageProcessor"
+- "TintImageProcessor"
+- "ColorControlsProcessor"
+- "BlackWhiteProcessor"
+- "CroppingImageProcessor"
+- ">>"
+- "=="
+provides-nominal:
+- "O15CanidateProject16ImageProcessItem"
+- "P15CanidateProject14ImageProcessor"
+- "V15CanidateProject21DefaultImageProcessor"
+- "V15CanidateProject10RectCorner"
+- "V15CanidateProject25RoundCornerImageProcessor"
+- "O15CanidateProject11ContentMode"
+- "V15CanidateProject22ResizingImageProcessor"
+- "V15CanidateProject18BlurImageProcessor"
+- "V15CanidateProject21OverlayImageProcessor"
+- "V15CanidateProject18TintImageProcessor"
+- "V15CanidateProject22ColorControlsProcessor"
+- "V15CanidateProject19BlackWhiteProcessor"
+- "V15CanidateProject22CroppingImageProcessor"
+provides-member:
+- ["O15CanidateProject16ImageProcessItem", ""]
+- ["P15CanidateProject14ImageProcessor", ""]
+- ["V15CanidateProject21DefaultImageProcessor", ""]
+- ["V15CanidateProject10RectCorner", ""]
+- ["V15CanidateProject25RoundCornerImageProcessor", ""]
+- ["O15CanidateProject11ContentMode", ""]
+- ["V15CanidateProject22ResizingImageProcessor", ""]
+- ["V15CanidateProject18BlurImageProcessor", ""]
+- ["V15CanidateProject21OverlayImageProcessor", ""]
+- ["V15CanidateProject18TintImageProcessor", ""]
+- ["V15CanidateProject22ColorControlsProcessor", ""]
+- ["V15CanidateProject19BlackWhiteProcessor", ""]
+- ["V15CanidateProject22CroppingImageProcessor", ""]
+- ["P15CanidateProject14ImageProcessor", "append"]
+- ["V15CanidateProject22ResizingImageProcessor", "targetSize"]
+- ["V15CanidateProject22ResizingImageProcessor", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "!="
+- !private "*"
+- "<<"
+- "=="
+- ">>"
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "BlackWhiteProcessor"
+- "BlurImageProcessor"
+- "Bool"
+- "CGFloat"
+- "CGPoint"
+- "CGSize"
+- "Color"
+- "ColorControlsProcessor"
+- "ContentMode"
+- "CroppingImageProcessor"
+- "Data"
+- "DefaultImageProcessor"
+- !private "GeneralProcessor"
+- "Image"
+- "ImageProcessItem"
+- "ImageProcessor"
+- "Int"
+- !private "Kingfisher"
+- "KingfisherOptionsInfo"
+- "OptionSet"
+- "OverlayImageProcessor"
+- "ProcessorImp"
+- "RectCorner"
+- "ResizingImageProcessor"
+- "RoundCornerImageProcessor"
+- "String"
+- "StringLiteralType"
+- "TintImageProcessor"
+- !private "UnicodeScalarType"
+- !private "|"
+depends-member:
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "adjusted"]
+- !private ["Ps9AnyObject", "appending"]
+- !private ["Ps9AnyObject", "blurred"]
+- !private ["Ps9AnyObject", "crop"]
+- !private ["Ps9AnyObject", "getRed"]
+- !private ["Ps9AnyObject", "hex"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kf"]
+- !private ["Ps9AnyObject", "overlaying"]
+- !private ["Ps9AnyObject", "resize"]
+- !private ["Ps9AnyObject", "size"]
+- !private ["Ps9AnyObject", "tinted"]
+- !private ["Sa", "onlyLoadFirstFrame"]
+- !private ["Sa", "preloadAllAnimationData"]
+- !private ["Sa", "scaleFactor"]
+- !private ["Ps23BidirectionalCollection", "onlyLoadFirstFrame"]
+- !private ["Ps23BidirectionalCollection", "preloadAllAnimationData"]
+- !private ["Ps23BidirectionalCollection", "scaleFactor"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["V15CanidateProject19BlackWhiteProcessor", "ColorControlsProcessor"]
+- ["V15CanidateProject19BlackWhiteProcessor", "Image"]
+- ["V15CanidateProject19BlackWhiteProcessor", "ImageProcessItem"]
+- ["V15CanidateProject19BlackWhiteProcessor", "KingfisherOptionsInfo"]
+- ["V15CanidateProject19BlackWhiteProcessor", "deinit"]
+- ["V15CanidateProject19BlackWhiteProcessor", "identifier"]
+- ["V15CanidateProject19BlackWhiteProcessor", "init"]
+- ["V15CanidateProject19BlackWhiteProcessor", "process"]
+- ["V15CanidateProject18BlurImageProcessor", "CGFloat"]
+- !private ["V15CanidateProject18BlurImageProcessor", "DefaultImageProcessor"]
+- ["V15CanidateProject18BlurImageProcessor", "Image"]
+- ["V15CanidateProject18BlurImageProcessor", "ImageProcessItem"]
+- ["V15CanidateProject18BlurImageProcessor", "KingfisherOptionsInfo"]
+- ["V15CanidateProject18BlurImageProcessor", "String"]
+- ["V15CanidateProject18BlurImageProcessor", "blurRadius"]
+- ["V15CanidateProject18BlurImageProcessor", "deinit"]
+- ["V15CanidateProject18BlurImageProcessor", "identifier"]
+- ["V15CanidateProject18BlurImageProcessor", "init"]
+- ["V15CanidateProject18BlurImageProcessor", "process"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["Ps7CVarArg", "Int"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "appending"]
+- !private ["Ps7CVarArg", "getRed"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "hex"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "kf"]
+- !private ["Ps7CVarArg", "onlyLoadFirstFrame"]
+- !private ["Ps7CVarArg", "preloadAllAnimationData"]
+- !private ["Ps7CVarArg", "scaleFactor"]
+- !private ["Ps10Collection", "onlyLoadFirstFrame"]
+- !private ["Ps10Collection", "preloadAllAnimationData"]
+- !private ["Ps10Collection", "scaleFactor"]
+- ["V15CanidateProject22ColorControlsProcessor", "CGFloat"]
+- !private ["V15CanidateProject22ColorControlsProcessor", "DefaultImageProcessor"]
+- ["V15CanidateProject22ColorControlsProcessor", "Image"]
+- ["V15CanidateProject22ColorControlsProcessor", "ImageProcessItem"]
+- ["V15CanidateProject22ColorControlsProcessor", "KingfisherOptionsInfo"]
+- ["V15CanidateProject22ColorControlsProcessor", "String"]
+- ["V15CanidateProject22ColorControlsProcessor", "brightness"]
+- ["V15CanidateProject22ColorControlsProcessor", "contrast"]
+- ["V15CanidateProject22ColorControlsProcessor", "deinit"]
+- ["V15CanidateProject22ColorControlsProcessor", "identifier"]
+- ["V15CanidateProject22ColorControlsProcessor", "init"]
+- ["V15CanidateProject22ColorControlsProcessor", "inputEV"]
+- ["V15CanidateProject22ColorControlsProcessor", "process"]
+- ["V15CanidateProject22ColorControlsProcessor", "saturation"]
+- !private ["Ps10Comparable", "appending"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- ["O15CanidateProject11ContentMode", "=="]
+- ["O15CanidateProject11ContentMode", "_toAnyHashable"]
+- ["O15CanidateProject11ContentMode", "aspectFill"]
+- ["O15CanidateProject11ContentMode", "aspectFit"]
+- ["O15CanidateProject11ContentMode", "deinit"]
+- ["O15CanidateProject11ContentMode", "hashValue"]
+- ["O15CanidateProject11ContentMode", "none"]
+- ["V15CanidateProject22CroppingImageProcessor", "CGPoint"]
+- ["V15CanidateProject22CroppingImageProcessor", "CGSize"]
+- !private ["V15CanidateProject22CroppingImageProcessor", "DefaultImageProcessor"]
+- ["V15CanidateProject22CroppingImageProcessor", "Image"]
+- ["V15CanidateProject22CroppingImageProcessor", "ImageProcessItem"]
+- ["V15CanidateProject22CroppingImageProcessor", "KingfisherOptionsInfo"]
+- ["V15CanidateProject22CroppingImageProcessor", "String"]
+- ["V15CanidateProject22CroppingImageProcessor", "anchor"]
+- ["V15CanidateProject22CroppingImageProcessor", "deinit"]
+- ["V15CanidateProject22CroppingImageProcessor", "identifier"]
+- ["V15CanidateProject22CroppingImageProcessor", "init"]
+- ["V15CanidateProject22CroppingImageProcessor", "process"]
+- ["V15CanidateProject22CroppingImageProcessor", "size"]
+- !private ["Ps28CustomDebugStringConvertible", "Int"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "appending"]
+- !private ["Ps28CustomDebugStringConvertible", "getRed"]
+- !private ["Ps28CustomDebugStringConvertible", "hex"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kf"]
+- !private ["Ps28CustomDebugStringConvertible", "none"]
+- !private ["Ps28CustomDebugStringConvertible", "onlyLoadFirstFrame"]
+- !private ["Ps28CustomDebugStringConvertible", "preloadAllAnimationData"]
+- !private ["Ps28CustomDebugStringConvertible", "scaleFactor"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "appending"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "appending"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "none"]
+- !private ["Ps17CustomReflectable", "onlyLoadFirstFrame"]
+- !private ["Ps17CustomReflectable", "preloadAllAnimationData"]
+- !private ["Ps17CustomReflectable", "scaleFactor"]
+- !private ["Ps23CustomStringConvertible", "Int"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "appending"]
+- !private ["Ps23CustomStringConvertible", "getRed"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "hex"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kf"]
+- !private ["Ps23CustomStringConvertible", "onlyLoadFirstFrame"]
+- !private ["Ps23CustomStringConvertible", "preloadAllAnimationData"]
+- !private ["Ps23CustomStringConvertible", "scaleFactor"]
+- ["V15CanidateProject21DefaultImageProcessor", "DefaultImageProcessor"]
+- ["V15CanidateProject21DefaultImageProcessor", "Image"]
+- ["V15CanidateProject21DefaultImageProcessor", "ImageProcessItem"]
+- !private ["V15CanidateProject21DefaultImageProcessor", "Kingfisher"]
+- ["V15CanidateProject21DefaultImageProcessor", "KingfisherOptionsInfo"]
+- ["V15CanidateProject21DefaultImageProcessor", "default"]
+- ["V15CanidateProject21DefaultImageProcessor", "deinit"]
+- ["V15CanidateProject21DefaultImageProcessor", "identifier"]
+- ["V15CanidateProject21DefaultImageProcessor", "init"]
+- ["V15CanidateProject21DefaultImageProcessor", "process"]
+- !private ["Ps9Equatable", "Int"]
+- ["Ps9Equatable", "RectCorner"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "all"]
+- !private ["Ps9Equatable", "appending"]
+- ["Ps9Equatable", "bottomLeft"]
+- ["Ps9Equatable", "bottomRight"]
+- ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "cornerIdentifier"]
+- ["Ps9Equatable", "formIntersection"]
+- ["Ps9Equatable", "formSymmetricDifference"]
+- ["Ps9Equatable", "formUnion"]
+- !private ["Ps9Equatable", "getRed"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "hex"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "insert"]
+- ["Ps9Equatable", "intersection"]
+- ["Ps9Equatable", "isDisjoint"]
+- ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "isSubset"]
+- ["Ps9Equatable", "isSuperset"]
+- !private ["Ps9Equatable", "kf"]
+- !private ["Ps9Equatable", "none"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "remove"]
+- ["Ps9Equatable", "subtract"]
+- ["Ps9Equatable", "subtracting"]
+- ["Ps9Equatable", "symmetricDifference"]
+- ["Ps9Equatable", "topLeft"]
+- ["Ps9Equatable", "topRight"]
+- ["Ps9Equatable", "union"]
+- ["Ps9Equatable", "update"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "RectCorner"]
+- !private ["Ps25ExpressibleByArrayLiteral", "all"]
+- ["Ps25ExpressibleByArrayLiteral", "bottomLeft"]
+- ["Ps25ExpressibleByArrayLiteral", "bottomRight"]
+- ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "cornerIdentifier"]
+- ["Ps25ExpressibleByArrayLiteral", "formIntersection"]
+- ["Ps25ExpressibleByArrayLiteral", "formSymmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "formUnion"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "insert"]
+- ["Ps25ExpressibleByArrayLiteral", "intersection"]
+- ["Ps25ExpressibleByArrayLiteral", "isDisjoint"]
+- ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- ["Ps25ExpressibleByArrayLiteral", "isSubset"]
+- ["Ps25ExpressibleByArrayLiteral", "isSuperset"]
+- !private ["Ps25ExpressibleByArrayLiteral", "onlyLoadFirstFrame"]
+- !private ["Ps25ExpressibleByArrayLiteral", "preloadAllAnimationData"]
+- ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- ["Ps25ExpressibleByArrayLiteral", "remove"]
+- !private ["Ps25ExpressibleByArrayLiteral", "scaleFactor"]
+- ["Ps25ExpressibleByArrayLiteral", "subtract"]
+- ["Ps25ExpressibleByArrayLiteral", "subtracting"]
+- ["Ps25ExpressibleByArrayLiteral", "symmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "topLeft"]
+- ["Ps25ExpressibleByArrayLiteral", "topRight"]
+- ["Ps25ExpressibleByArrayLiteral", "union"]
+- ["Ps25ExpressibleByArrayLiteral", "update"]
+- ["Ps25ExpressibleByArrayLiteral", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "appending"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "none"]
+- !private ["Ps26ExpressibleByStringLiteral", "appending"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "appending"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Int"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "appending"]
+- !private ["Ps8Hashable", "getRed"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "hex"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kf"]
+- !private ["Ps8Hashable", "none"]
+- ["Ps8Hashable", ""]
+- !private ["P12ReactiveJSON8Identity", "appending"]
+- !private ["P12ReactiveJSON8Identity", "hashValue"]
+- ["P12ReactiveJSON8Identity", "init"]
+- ["O15CanidateProject16ImageProcessItem", "Data"]
+- ["O15CanidateProject16ImageProcessItem", "Image"]
+- ["O15CanidateProject16ImageProcessItem", "data"]
+- ["O15CanidateProject16ImageProcessItem", "image"]
+- !private ["P15CanidateProject14ImageProcessor", "CGPoint"]
+- !private ["P15CanidateProject14ImageProcessor", "ColorControlsProcessor"]
+- ["P15CanidateProject14ImageProcessor", "DefaultImageProcessor"]
+- !private ["P15CanidateProject14ImageProcessor", "GeneralProcessor"]
+- ["P15CanidateProject14ImageProcessor", "Image"]
+- ["P15CanidateProject14ImageProcessor", "ImageProcessItem"]
+- ["P15CanidateProject14ImageProcessor", "ImageProcessor"]
+- !private ["P15CanidateProject14ImageProcessor", "Kingfisher"]
+- ["P15CanidateProject14ImageProcessor", "KingfisherOptionsInfo"]
+- ["P15CanidateProject14ImageProcessor", "String"]
+- !private ["P15CanidateProject14ImageProcessor", "anchor"]
+- ["P15CanidateProject14ImageProcessor", "append"]
+- !private ["P15CanidateProject14ImageProcessor", "blurRadius"]
+- !private ["P15CanidateProject14ImageProcessor", "brightness"]
+- !private ["P15CanidateProject14ImageProcessor", "contrast"]
+- !private ["P15CanidateProject14ImageProcessor", "cornerRadius"]
+- !private ["P15CanidateProject14ImageProcessor", "default"]
+- !private ["P15CanidateProject14ImageProcessor", "fraction"]
+- ["P15CanidateProject14ImageProcessor", "identifier"]
+- ["P15CanidateProject14ImageProcessor", "init"]
+- !private ["P15CanidateProject14ImageProcessor", "inputEV"]
+- !private ["P15CanidateProject14ImageProcessor", "overlay"]
+- !private ["P15CanidateProject14ImageProcessor", "p"]
+- ["P15CanidateProject14ImageProcessor", "process"]
+- !private ["P15CanidateProject14ImageProcessor", "referenceSize"]
+- !private ["P15CanidateProject14ImageProcessor", "roundingCorners"]
+- !private ["P15CanidateProject14ImageProcessor", "saturation"]
+- !private ["P15CanidateProject14ImageProcessor", "size"]
+- !private ["P15CanidateProject14ImageProcessor", "targetContentMode"]
+- !private ["P15CanidateProject14ImageProcessor", "targetSize"]
+- !private ["P15CanidateProject14ImageProcessor", "tint"]
+- ["P15CanidateProject14ImageProcessor", ""]
+- !private ["Si", "hashValue"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["C15CanidateProject10Kingfisher", "adjusted"]
+- !private ["C15CanidateProject10Kingfisher", "blurred"]
+- !private ["C15CanidateProject10Kingfisher", "crop"]
+- !private ["C15CanidateProject10Kingfisher", "image"]
+- !private ["C15CanidateProject10Kingfisher", "overlaying"]
+- !private ["C15CanidateProject10Kingfisher", "resize"]
+- !private ["C15CanidateProject10Kingfisher", "size"]
+- !private ["C15CanidateProject10Kingfisher", "tinted"]
+- !private ["P15CanidateProject20KingfisherCompatible", "appending"]
+- ["P15CanidateProject20KingfisherCompatible", "init"]
+- !private ["P15CanidateProject20KingfisherCompatible", "kf"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "appending"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "appending"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "onlyLoadFirstFrame"]
+- !private ["Ps17MutableCollection", "preloadAllAnimationData"]
+- !private ["Ps17MutableCollection", "scaleFactor"]
+- !private ["PSo8NSCoding", "Int"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "appending"]
+- !private ["PSo8NSCoding", "getRed"]
+- !private ["PSo8NSCoding", "hex"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kf"]
+- !private ["PSo9NSCopying", "Int"]
+- !private ["PSo9NSCopying", "String"]
+- !private ["PSo9NSCopying", "appending"]
+- !private ["PSo9NSCopying", "getRed"]
+- !private ["PSo9NSCopying", "hex"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "appending"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "appending"]
+- !private ["CSo8NSObject", "getRed"]
+- !private ["CSo8NSObject", "hex"]
+- !private ["CSo8NSObject", "kf"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "appending"]
+- !private ["PSo16NSObjectProtocol", "getRed"]
+- !private ["PSo16NSObjectProtocol", "hex"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kf"]
+- !private ["PSo14NSSecureCoding", "Int"]
+- !private ["PSo14NSSecureCoding", "String"]
+- !private ["PSo14NSSecureCoding", "appending"]
+- !private ["PSo14NSSecureCoding", "getRed"]
+- !private ["PSo14NSSecureCoding", "hex"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "kf"]
+- !private ["CSo8NSString", "appending"]
+- ["CSo8NSString", "init"]
+- ["Ps9OptionSet", "RectCorner"]
+- !private ["Ps9OptionSet", "all"]
+- ["Ps9OptionSet", "bottomLeft"]
+- ["Ps9OptionSet", "bottomRight"]
+- ["Ps9OptionSet", "contains"]
+- !private ["Ps9OptionSet", "cornerIdentifier"]
+- ["Ps9OptionSet", "formIntersection"]
+- ["Ps9OptionSet", "formSymmetricDifference"]
+- ["Ps9OptionSet", "formUnion"]
+- ["Ps9OptionSet", "init"]
+- ["Ps9OptionSet", "insert"]
+- ["Ps9OptionSet", "intersection"]
+- ["Ps9OptionSet", "isDisjoint"]
+- ["Ps9OptionSet", "isEmpty"]
+- ["Ps9OptionSet", "isSubset"]
+- ["Ps9OptionSet", "isSuperset"]
+- ["Ps9OptionSet", "rawValue"]
+- ["Ps9OptionSet", "remove"]
+- ["Ps9OptionSet", "subtract"]
+- ["Ps9OptionSet", "subtracting"]
+- ["Ps9OptionSet", "symmetricDifference"]
+- ["Ps9OptionSet", "topLeft"]
+- ["Ps9OptionSet", "topRight"]
+- ["Ps9OptionSet", "union"]
+- ["Ps9OptionSet", "update"]
+- ["Ps9OptionSet", ""]
+- !private ["Sq", "none"]
+- !private ["P13ReactiveSwift16OptionalProtocol", "none"]
+- ["V15CanidateProject21OverlayImageProcessor", "CGFloat"]
+- ["V15CanidateProject21OverlayImageProcessor", "Color"]
+- !private ["V15CanidateProject21OverlayImageProcessor", "DefaultImageProcessor"]
+- ["V15CanidateProject21OverlayImageProcessor", "Image"]
+- ["V15CanidateProject21OverlayImageProcessor", "ImageProcessItem"]
+- ["V15CanidateProject21OverlayImageProcessor", "KingfisherOptionsInfo"]
+- ["V15CanidateProject21OverlayImageProcessor", "String"]
+- ["V15CanidateProject21OverlayImageProcessor", "deinit"]
+- ["V15CanidateProject21OverlayImageProcessor", "fraction"]
+- ["V15CanidateProject21OverlayImageProcessor", "identifier"]
+- ["V15CanidateProject21OverlayImageProcessor", "init"]
+- ["V15CanidateProject21OverlayImageProcessor", "overlay"]
+- ["V15CanidateProject21OverlayImageProcessor", "process"]
+- !private ["Ps22RandomAccessCollection", "onlyLoadFirstFrame"]
+- !private ["Ps22RandomAccessCollection", "preloadAllAnimationData"]
+- !private ["Ps22RandomAccessCollection", "scaleFactor"]
+- !private ["Ps26RangeReplaceableCollection", "onlyLoadFirstFrame"]
+- !private ["Ps26RangeReplaceableCollection", "preloadAllAnimationData"]
+- !private ["Ps26RangeReplaceableCollection", "scaleFactor"]
+- ["Ps16RawRepresentable", "RectCorner"]
+- !private ["Ps16RawRepresentable", "all"]
+- ["Ps16RawRepresentable", "bottomLeft"]
+- ["Ps16RawRepresentable", "bottomRight"]
+- ["Ps16RawRepresentable", "contains"]
+- !private ["Ps16RawRepresentable", "cornerIdentifier"]
+- ["Ps16RawRepresentable", "formIntersection"]
+- ["Ps16RawRepresentable", "formSymmetricDifference"]
+- ["Ps16RawRepresentable", "formUnion"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "insert"]
+- ["Ps16RawRepresentable", "intersection"]
+- ["Ps16RawRepresentable", "isDisjoint"]
+- ["Ps16RawRepresentable", "isEmpty"]
+- ["Ps16RawRepresentable", "isSubset"]
+- ["Ps16RawRepresentable", "isSuperset"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "remove"]
+- ["Ps16RawRepresentable", "subtract"]
+- ["Ps16RawRepresentable", "subtracting"]
+- ["Ps16RawRepresentable", "symmetricDifference"]
+- ["Ps16RawRepresentable", "topLeft"]
+- ["Ps16RawRepresentable", "topRight"]
+- ["Ps16RawRepresentable", "union"]
+- ["Ps16RawRepresentable", "update"]
+- ["Ps16RawRepresentable", ""]
+- ["V15CanidateProject10RectCorner", "Element"]
+- ["V15CanidateProject10RectCorner", "Int"]
+- ["V15CanidateProject10RectCorner", "RawValue"]
+- ["V15CanidateProject10RectCorner", "RectCorner"]
+- ["V15CanidateProject10RectCorner", "String"]
+- ["V15CanidateProject10RectCorner", "all"]
+- ["V15CanidateProject10RectCorner", "bottomLeft"]
+- ["V15CanidateProject10RectCorner", "bottomRight"]
+- ["V15CanidateProject10RectCorner", "contains"]
+- ["V15CanidateProject10RectCorner", "cornerIdentifier"]
+- ["V15CanidateProject10RectCorner", "deinit"]
+- ["V15CanidateProject10RectCorner", "formIntersection"]
+- ["V15CanidateProject10RectCorner", "formSymmetricDifference"]
+- ["V15CanidateProject10RectCorner", "formUnion"]
+- ["V15CanidateProject10RectCorner", "init"]
+- ["V15CanidateProject10RectCorner", "insert"]
+- ["V15CanidateProject10RectCorner", "intersection"]
+- ["V15CanidateProject10RectCorner", "isDisjoint"]
+- ["V15CanidateProject10RectCorner", "isEmpty"]
+- ["V15CanidateProject10RectCorner", "isSubset"]
+- ["V15CanidateProject10RectCorner", "isSuperset"]
+- ["V15CanidateProject10RectCorner", "rawValue"]
+- ["V15CanidateProject10RectCorner", "remove"]
+- ["V15CanidateProject10RectCorner", "subtract"]
+- ["V15CanidateProject10RectCorner", "subtracting"]
+- ["V15CanidateProject10RectCorner", "symmetricDifference"]
+- ["V15CanidateProject10RectCorner", "topLeft"]
+- ["V15CanidateProject10RectCorner", "topRight"]
+- ["V15CanidateProject10RectCorner", "union"]
+- ["V15CanidateProject10RectCorner", "update"]
+- ["V15CanidateProject22ResizingImageProcessor", "CGSize"]
+- ["V15CanidateProject22ResizingImageProcessor", "ContentMode"]
+- !private ["V15CanidateProject22ResizingImageProcessor", "DefaultImageProcessor"]
+- ["V15CanidateProject22ResizingImageProcessor", "Image"]
+- ["V15CanidateProject22ResizingImageProcessor", "ImageProcessItem"]
+- ["V15CanidateProject22ResizingImageProcessor", "KingfisherOptionsInfo"]
+- ["V15CanidateProject22ResizingImageProcessor", "String"]
+- ["V15CanidateProject22ResizingImageProcessor", "deinit"]
+- ["V15CanidateProject22ResizingImageProcessor", "identifier"]
+- ["V15CanidateProject22ResizingImageProcessor", "init"]
+- ["V15CanidateProject22ResizingImageProcessor", "process"]
+- ["V15CanidateProject22ResizingImageProcessor", "referenceSize"]
+- ["V15CanidateProject22ResizingImageProcessor", "targetContentMode"]
+- ["V15CanidateProject22ResizingImageProcessor", "targetSize"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "CGFloat"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "CGSize"]
+- !private ["V15CanidateProject25RoundCornerImageProcessor", "DefaultImageProcessor"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "Image"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "ImageProcessItem"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "KingfisherOptionsInfo"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "RectCorner"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "String"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "cornerRadius"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "deinit"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "identifier"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "init"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "process"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "roundingCorners"]
+- ["V15CanidateProject25RoundCornerImageProcessor", "targetSize"]
+- !private ["Ps8Sequence", "onlyLoadFirstFrame"]
+- !private ["Ps8Sequence", "preloadAllAnimationData"]
+- !private ["Ps8Sequence", "scaleFactor"]
+- ["Ps10SetAlgebra", "RectCorner"]
+- !private ["Ps10SetAlgebra", "all"]
+- ["Ps10SetAlgebra", "bottomLeft"]
+- ["Ps10SetAlgebra", "bottomRight"]
+- ["Ps10SetAlgebra", "contains"]
+- !private ["Ps10SetAlgebra", "cornerIdentifier"]
+- ["Ps10SetAlgebra", "formIntersection"]
+- ["Ps10SetAlgebra", "formSymmetricDifference"]
+- ["Ps10SetAlgebra", "formUnion"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "insert"]
+- ["Ps10SetAlgebra", "intersection"]
+- ["Ps10SetAlgebra", "isDisjoint"]
+- ["Ps10SetAlgebra", "isEmpty"]
+- ["Ps10SetAlgebra", "isSubset"]
+- ["Ps10SetAlgebra", "isSuperset"]
+- ["Ps10SetAlgebra", "rawValue"]
+- ["Ps10SetAlgebra", "remove"]
+- ["Ps10SetAlgebra", "subtract"]
+- ["Ps10SetAlgebra", "subtracting"]
+- ["Ps10SetAlgebra", "symmetricDifference"]
+- ["Ps10SetAlgebra", "topLeft"]
+- ["Ps10SetAlgebra", "topRight"]
+- ["Ps10SetAlgebra", "union"]
+- ["Ps10SetAlgebra", "update"]
+- ["Ps10SetAlgebra", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "appending"]
+- ["SS", "init"]
+- !private ["Ps16TextOutputStream", "appending"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "appending"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["V15CanidateProject18TintImageProcessor", "Color"]
+- !private ["V15CanidateProject18TintImageProcessor", "DefaultImageProcessor"]
+- ["V15CanidateProject18TintImageProcessor", "Image"]
+- ["V15CanidateProject18TintImageProcessor", "ImageProcessItem"]
+- ["V15CanidateProject18TintImageProcessor", "KingfisherOptionsInfo"]
+- ["V15CanidateProject18TintImageProcessor", "String"]
+- ["V15CanidateProject18TintImageProcessor", "deinit"]
+- ["V15CanidateProject18TintImageProcessor", "identifier"]
+- ["V15CanidateProject18TintImageProcessor", "init"]
+- ["V15CanidateProject18TintImageProcessor", "process"]
+- ["V15CanidateProject18TintImageProcessor", "tint"]
+- !private ["PSo29UIAccessibilityIdentification", "kf"]
+- !private ["CSo7UIColor", "CGFloat"]
+- !private ["CSo7UIColor", "Int"]
+- !private ["CSo7UIColor", "String"]
+- !private ["CSo7UIColor", "getRed"]
+- !private ["CSo7UIColor", "hex"]
+- !private ["CSo7UIImage", "deinit"]
+- !private ["CSo7UIImage", "kf"]
+- !private ["Ps14_ArrayProtocol", "onlyLoadFirstFrame"]
+- !private ["Ps14_ArrayProtocol", "preloadAllAnimationData"]
+- !private ["Ps14_ArrayProtocol", "scaleFactor"]
+- !private ["Ps23_BidirectionalIndexable", "onlyLoadFirstFrame"]
+- !private ["Ps23_BidirectionalIndexable", "preloadAllAnimationData"]
+- !private ["Ps23_BidirectionalIndexable", "scaleFactor"]
+- !private ["Ps24_DestructorSafeContainer", "onlyLoadFirstFrame"]
+- !private ["Ps24_DestructorSafeContainer", "preloadAllAnimationData"]
+- !private ["Ps24_DestructorSafeContainer", "scaleFactor"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "appending"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "appending"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "appending"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "appending"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "Int"]
+- !private ["Ps26_ExpressibleByColorLiteral", "String"]
+- !private ["Ps26_ExpressibleByColorLiteral", "getRed"]
+- !private ["Ps26_ExpressibleByColorLiteral", "hex"]
+- !private ["Ps26_ExpressibleByImageLiteral", "kf"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "appending"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "appending"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Int"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "appending"]
+- !private ["Ps9_Hashable", "getRed"]
+- ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "hex"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kf"]
+- !private ["Ps9_Hashable", "none"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "onlyLoadFirstFrame"]
+- !private ["Ps10_Indexable", "preloadAllAnimationData"]
+- !private ["Ps10_Indexable", "scaleFactor"]
+- !private ["Ps14_IndexableBase", "onlyLoadFirstFrame"]
+- !private ["Ps14_IndexableBase", "preloadAllAnimationData"]
+- !private ["Ps14_IndexableBase", "scaleFactor"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "onlyLoadFirstFrame"]
+- !private ["Ps17_MutableIndexable", "preloadAllAnimationData"]
+- !private ["Ps17_MutableIndexable", "scaleFactor"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "appending"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "none"]
+- !private ["Ps21_ObjectiveCBridgeable", "onlyLoadFirstFrame"]
+- !private ["Ps21_ObjectiveCBridgeable", "preloadAllAnimationData"]
+- !private ["Ps21_ObjectiveCBridgeable", "scaleFactor"]
+- !private ["Vs26_OptionalNilComparisonType", "none"]
+- !private ["Ps22_RandomAccessIndexable", "onlyLoadFirstFrame"]
+- !private ["Ps22_RandomAccessIndexable", "preloadAllAnimationData"]
+- !private ["Ps22_RandomAccessIndexable", "scaleFactor"]
+- !private ["Ps26_RangeReplaceableIndexable", "onlyLoadFirstFrame"]
+- !private ["Ps26_RangeReplaceableIndexable", "preloadAllAnimationData"]
+- !private ["Ps26_RangeReplaceableIndexable", "scaleFactor"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- "V15CanidateProject19BlackWhiteProcessor"
+- "V15CanidateProject18BlurImageProcessor"
+- !private "Sb"
+- !private "VSC7CGPoint"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "V15CanidateProject22ColorControlsProcessor"
+- "Ps10Comparable"
+- "O15CanidateProject11ContentMode"
+- "V15CanidateProject22CroppingImageProcessor"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V15CanidateProject21DefaultImageProcessor"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P12ReactiveJSON8Identity"
+- "O15CanidateProject16ImageProcessItem"
+- "P15CanidateProject14ImageProcessor"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "C15CanidateProject10Kingfisher"
+- "P15CanidateProject20KingfisherCompatible"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Ps9OptionSet"
+- !private "Sq"
+- !private "P13ReactiveSwift16OptionalProtocol"
+- "V15CanidateProject21OverlayImageProcessor"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- "V15CanidateProject10RectCorner"
+- "V15CanidateProject22ResizingImageProcessor"
+- "V15CanidateProject25RoundCornerImageProcessor"
+- !private "Ps8Sequence"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "V15CanidateProject18TintImageProcessor"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIColor"
+- !private "CSo7UIImage"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Modules/ReactiveJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Headers/ReactiveJSON.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Headers/ReactiveJSON-Swift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Headers/Result-Swift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Headers/ReactiveSwift.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Headers/Result.h"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveJSON.framework/Modules/module.modulemap"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveSwift.framework/Modules/module.modulemap"
+- "/Users/admin/Projects/CanidateProject/CanidateProject/Result.framework/Modules/module.modulemap"
+interface-hash: "4b5a08784ddfefaeca1d5c373dffbc6e"
