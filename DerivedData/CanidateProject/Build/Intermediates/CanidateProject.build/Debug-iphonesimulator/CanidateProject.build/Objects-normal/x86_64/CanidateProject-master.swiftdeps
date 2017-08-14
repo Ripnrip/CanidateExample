@@ -1,10 +1,10 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "c9026ddceb756d2a8bc547477be79be6"
-build_time: [556068593, 990524000]
+build_time: [556069205, 431259000]
 inputs:
   "/Users/admin/Projects/CanidateProject/CanidateProject/ReactiveModel.swift": [556065178, 0]
   "/Users/admin/Projects/CanidateProject/CanidateProject/PhotosCollectionViewCell.swift": [556065545, 0]
-  "/Users/admin/Projects/CanidateProject/CanidateProject/ViewController.swift": [556068593, 0]
+  "/Users/admin/Projects/CanidateProject/CanidateProject/ViewController.swift": [556069204, 0]
   "/Users/admin/Projects/CanidateProject/CanidateProject/PostsCollectionViewCell.swift": [556065545, 0]
   "/Users/admin/Projects/CanidateProject/CanidateProject/AppDelegate.swift": [556062035, 0]
   "/Users/admin/Projects/CanidateProject/CanidateProject/UsersCollectionViewCell.swift": [556065545, 0]

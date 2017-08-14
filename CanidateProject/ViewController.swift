@@ -164,6 +164,36 @@ extension ViewController :UICollectionViewDataSource, UICollectionViewDelegateFl
         return UICollectionViewCell()
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView == usersCollectionView{
+            let user = self.users[indexPath.row]
+            let message = "the user is \(user.username)"
+            let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            
+        }
+        if collectionView == postsCollectionView{
+            let post = self.posts[indexPath.row]
+            let message = "the post title is \(post.title)"
+            let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+
+            
+        }
+        if collectionView == picturesCollectionView{
+            let photo = self.photos[indexPath.row]
+            let message = "the photoURL is \(photo.thumbnailUrl)"
+            let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Click", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+            
+        }
+        
+
+    }
+    
     //  MARK: UICollectionView Flow Layout Delgate
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
